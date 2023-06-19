@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <title>Meme-form</title>
+    </head>
+    <body>
+        <img src="Images/I-want-you.jpg" alt="I want you">
+        <div class="box">
+            <div class="uppertext">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize you deepest dreams. Sign up Now to get started.</p>
+                <p>You know what to do</p>
+            </div>
+            <form action="" method="post">
+                <p>Let's do this!</p>
+                <fieldset>
+                    <div class="input">
+                        <label for="first_name">FIRST NAME
+                        </label>
+                        <input type="text" name="first" id="first_name" required>
+                    </div>
+                    <div class="input">
+                        <label for="last_name">LAST NAME
+                        </label>
+                        <input type="text" name="last" id="last_name" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="mailid">EMAIL
+                        </label>
+                        <input type="email" name="mail" id="mailid" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phonenumber" id="phone" required pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$">
+                    </div>
+                    <div class="input">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="pass" id="password">
+                    </div>
+                    <div class="input">
+                        <label for="cpassword">CONFIRM PASSWORD</label>
+                        <input type="password" name="cpass" id="cpassword">
+                    </div>
+                </fieldset>
+
+            </form>
+            <div class="lowertext">
+                <button type="submit">Create Account</button>
+            </div>
+        </div>
+    </body>
+</html>
+
